@@ -1,7 +1,7 @@
 # Webtree
 
-**Webtree** è un portale web e permette la navigazione tra i dati che un ente vuole pubblicare (internamente o esternamente). Se internamente, è possibile profilare gli utenti in modo da poter visualizzare solo una parte dei dati (quelli di competenza) e solo un sottoinsieme delle processi disponibili.
-L'utilizzo tipico di Webtree è il seguente: si creano delle stored procedure sul database in modo da accedere ai dati voluti; si pubblicano le stored procedure su Webtree configuando alcune schermate nel menu amministrazione; infine si danno i permessi agli utenti o gruppi di utenti in modo che possano richiedere queste estrazioni dati e visualizzarle.
+**Webtree** è un portale web e permette la navigazione tra i dati che un ente vuole pubblicare (internamente o esternamente). Se internamente, è possibile profilare gli utenti in modo da poter visualizzare solo una parte dei dati (quelli di competenza) e solo un sottoinsieme delle funzioni disponibili.
+L'utilizzo tipico di Webtree è il seguente: si creano delle stored procedure sul database in modo da accedere ai dati voluti; si pubblicano le stored procedure su Webtree configurando alcune schermate nel menu amministrazione; infine si danno i permessi agli utenti o gruppi di utenti in modo che possano richiedere queste estrazioni dati e visualizzarle.
 Webtree è inoltre un framework per realizzare applicazioni a sé stanti (scrivendo codice PHP/Javascript e realizzando pagine extra).
 
 ## Pre-requisiti
