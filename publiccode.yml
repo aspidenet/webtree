@@ -1,0 +1,75 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: Reftree
+categories:
+  - business-intelligence
+  - business-process-management
+description:
+  it:
+    features:
+      - Portale dati
+      - Sviluppo applicazioni web
+    genericName: Webtree Portale integrazione dati
+    localisedName: Webtree
+    longDescription: >
+      Webtree è un portale web e permette la navigazione tra i dati che un ente
+      vuole pubblicare (internamente o esternamente). Se internamente, è
+      possibile profilare gli utenti in modo da poter visualizzare solo una
+      parte dei dati (quelli di competenza) e solo un sottoinsieme delle
+      funzioni disponibili.
+
+
+      L'utilizzo tipico di Webtree è il seguente: si creano delle stored
+      procedure sul database in modo da accedere ai dati voluti anche
+      provenienti da più sorgenti esterne; si pubblicano le stored procedure su
+      Webtree configurando alcune schermate nel menu amministrazione; infine si
+      danno i permessi agli utenti o gruppi di utenti in modo che possano
+      richiedere queste estrazioni dati e visualizzarle.
+
+
+      Webtree è inoltre un framework per realizzare applicazioni a sé stanti
+      (scrivendo codice PHP/Javascript e realizzando pagine extra).
+    shortDescription: >-
+      Webtree è un portale web che permette ad utenti profilati di estrarre
+      "dati" a loro volta pubblicati da altri utenti.
+developmentStatus: stable
+isBasedOn:
+  - 'https://github.com/aspidenet/web3'
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: un_lsrm
+legal:
+  license: GPL-3.0-or-later
+  mainCopyrightOwner: ASPIDE.NET
+  repoOwner: ASPIDE.NET
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: marcello@aspide.net
+      name: Marcello Trucco
+  type: internal
+name: Webtree
+platforms:
+  - web
+releaseDate: '2020-10-01'
+softwareType: standalone/web
+url: 'https://github.com/aspidenet/webtree'
+usedBy:
+  - Università La Sapienza - Roma - Ufficio Alta Vigilanza
